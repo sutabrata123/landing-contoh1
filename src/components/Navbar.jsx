@@ -5,12 +5,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           
           {/* Logo Section */}
-          <div className="flex-shrink-0 flex items-center gap-2 cursor-pointer">
-            {/* Placeholder logo icon, bisa diganti gambar nanti */}
-            <div className="w-6 h-6 bg-[#6B2346] rounded-sm"></div>
-            <span className="text-xl font-bold text-gray-800">
-              indoinvite
-            </span>
+          <div className="flex-shrink-0 flex items-center cursor-pointer">
+            {/* Menggunakan gambar image.png dari folder public */}
+            <img 
+              src="/image.png" 
+              alt="Indoinvite Logo" 
+              className="h-8 w-auto object-contain" 
+            />
           </div>
 
           {/* Desktop Menu - Disembunyikan di layar kecil (mobile) */}
