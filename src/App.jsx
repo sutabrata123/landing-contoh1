@@ -9,10 +9,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="font-sans text-gray-800 pt-16">
-      {/* Navbar di atas */}
       <Navbar />
       
-      {/* Main content */}
+      {/* Background coklat dicabut dari sini agar tidak membungkus seluruh web */}
       <main>
         <Hero />
         <Features />
@@ -21,7 +20,6 @@ function App() {
         <CTA />
       </main>
 
-      {/* Footer di bawah */}
       <Footer />
     </div>
   );

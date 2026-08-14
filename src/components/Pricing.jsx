@@ -13,25 +13,25 @@ const Pricing = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-5xl mx-auto">
         
-        {/* Paket Basic */}
-        <div className="bg-white rounded-3xl p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+        {/* Paket Basic - Ubah ke bg-[#FAF6F0] */}
+        <div className="bg-[#FAF6F0] rounded-3xl p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Basic</h3>
           <div className="mb-6">
             <span className="text-4xl font-bold text-gray-900">Gratis</span>
           </div>
           <p className="text-sm text-gray-500 mb-6">Untuk mencoba fitur dasar</p>
           <ul className="space-y-4 mb-8 text-sm text-gray-600">
-            <li className="flex items-center gap-2"><span className="text-green-500">✓</span> 1 undangan aktif</li>
-            <li className="flex items-center gap-2"><span className="text-green-500">✓</span> 10 template dasar</li>
-            <li className="flex items-center gap-2"><span className="text-green-500">✓</span> RSVP sederhana</li>
-            <li className="flex items-center gap-2"><span className="text-green-500">✓</span> Sub-domain indoinvite</li>
+            <li className="flex items-center gap-2"><span className="text-[#c19b6c]">✓</span> 1 undangan aktif</li>
+            <li className="flex items-center gap-2"><span className="text-[#c19b6c]">✓</span> 10 template dasar</li>
+            <li className="flex items-center gap-2"><span className="text-[#c19b6c]">✓</span> RSVP sederhana</li>
+            <li className="flex items-center gap-2"><span className="text-[#c19b6c]">✓</span> Sub-domain indoinvite</li>
           </ul>
           <button className="w-full py-3 rounded-full border border-gray-300 text-gray-700 font-medium hover:border-[#6B2346] hover:text-[#6B2346] transition-colors">
             Pilih Paket
           </button>
         </div>
 
-        {/* Paket Premium (Highlight) */}
+        {/* Paket Premium - Tetap warna tema utama */}
         <div className="bg-[#6B2346] rounded-3xl p-8 border border-[#531a35] shadow-xl relative transform md:-translate-y-4">
           <div className="absolute top-0 right-8 transform -translate-y-1/2">
             <span className="bg-[#c19b6c] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
@@ -56,18 +56,18 @@ const Pricing = () => {
           </button>
         </div>
 
-        {/* Paket Business */}
-        <div className="bg-white rounded-3xl p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
+        {/* Paket Business - Ubah ke bg-[#FAF6F0] */}
+        <div className="bg-[#FAF6F0] rounded-3xl p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Business</h3>
           <div className="mb-6">
             <span className="text-4xl font-bold text-gray-900">Rp 349K</span>
           </div>
           <p className="text-sm text-gray-500 mb-6">Untuk agensi & WO</p>
           <ul className="space-y-4 mb-8 text-sm text-gray-600">
-            <li className="flex items-center gap-2"><span className="text-green-500">✓</span> Semua fitur Premium</li>
-            <li className="flex items-center gap-2"><span className="text-green-500">✓</span> Manajemen tamu lanjutan</li>
-            <li className="flex items-center gap-2"><span className="text-green-500">✓</span> Analitik kehadiran</li>
-            <li className="flex items-center gap-2"><span className="text-green-500">✓</span> Dukungan prioritas</li>
+            <li className="flex items-center gap-2"><span className="text-[#c19b6c]">✓</span> Semua fitur Premium</li>
+            <li className="flex items-center gap-2"><span className="text-[#c19b6c]">✓</span> Manajemen tamu lanjutan</li>
+            <li className="flex items-center gap-2"><span className="text-[#c19b6c]">✓</span> Analitik kehadiran</li>
+            <li className="flex items-center gap-2"><span className="text-[#c19b6c]">✓</span> Dukungan prioritas</li>
           </ul>
           <button className="w-full py-3 rounded-full border border-gray-300 text-gray-700 font-medium hover:border-[#6B2346] hover:text-[#6B2346] transition-colors">
             Pilih Paket
