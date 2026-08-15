@@ -62,7 +62,7 @@ const Hero = () => {
           <div className="w-full md:w-1/2">
             <div className="flex justify-center items-center h-[350px] md:h-[500px]">
               <img 
-                src="/hero img.jpg" 
+                src="/mantap.jpg" 
                 alt="Aplikasi Indoinvite" 
                 className="max-h-full object-contain rounded-xl shadow-sm hover:scale-105 transition-transform duration-500"
               />

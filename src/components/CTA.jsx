@@ -3,7 +3,7 @@ const CTA = () => {
     <section className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 mb-12">
       <div className="bg-[#6B2346] rounded-3xl p-10 md:p-16 text-center text-white shadow-2xl relative overflow-hidden">
         
-        {/* Dekorasi Latar Belakang (Opsional untuk estetika HR) */}
+        {/* Dekorasi Latar Belakang  */}
         <div className="absolute top-0 left-0 w-64 h-64 bg-white opacity-5 rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute bottom-0 right-0 w-64 h-64 bg-[#c19b6c] opacity-20 rounded-full blur-3xl transform translate-x-1/2 translate-y-1/2"></div>
 

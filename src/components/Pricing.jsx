@@ -13,7 +13,7 @@ const Pricing = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-5xl mx-auto">
         
-        {/* Paket Basic - Ubah ke bg-[#FAF6F0] */}
+        {/* Paket Basic */}
         <div className="bg-[#FAF6F0] rounded-3xl p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Basic</h3>
           <div className="mb-6">
@@ -31,7 +31,7 @@ const Pricing = () => {
           </button>
         </div>
 
-        {/* Paket Premium - Tetap warna tema utama */}
+        {/* Paket Premium  */}
         <div className="bg-[#6B2346] rounded-3xl p-8 border border-[#531a35] shadow-xl relative transform md:-translate-y-4">
           <div className="absolute top-0 right-8 transform -translate-y-1/2">
             <span className="bg-[#c19b6c] text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">
@@ -56,7 +56,7 @@ const Pricing = () => {
           </button>
         </div>
 
-        {/* Paket Business - Ubah ke bg-[#FAF6F0] */}
+        {/* Paket Business  */}
         <div className="bg-[#FAF6F0] rounded-3xl p-8 border border-gray-100 shadow-sm hover:shadow-md transition-shadow">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Business</h3>
           <div className="mb-6">

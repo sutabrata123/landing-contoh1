@@ -11,7 +11,7 @@ function App() {
     <div className="font-sans text-gray-800 pt-16">
       <Navbar />
       
-      {/* Background coklat dicabut dari sini agar tidak membungkus seluruh web */}
+      
       <main>
         <Hero />
         <Features />

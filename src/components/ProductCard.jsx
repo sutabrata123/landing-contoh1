@@ -8,7 +8,7 @@ const ProductCard = ({ templateName, price, imageUrl }) => {
           alt={templateName}
           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
           onError={(e) => {
-            // Menggunakan layanan placeholder online agar dijamin selalu muncul saat gambar API rusak
+            //layanan placeholder online agar dijamin selalu muncul saat gambar API rusak
             e.target.src = 'https://placehold.co/600x400/eeeeee/999999?text=Gambar+Rusak'; 
           }}
         />
